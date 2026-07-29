@@ -21,10 +21,15 @@
     <h1>Olá, mundo!</h1>
     <p>Bem-vindo ao meu primeiro programa em HTML!</p>
     <script>
-        window.alert("Minha primeira mensagem de alerta!");
-        window.confirm("Deseja continuar?");// janela com botao ok e cancelar
-        window.prompt("Qual é o seu nome?");// vai perguntar o nome do usuario e vai retornar o valor digitado
-        
-    </script>
+       var n1=Number(window.prompt("Digite um número: "));
+       var n2=Number(window.prompt("Digite outro número: "));
+       var soma= n1 + n2;
+       window.alert(`a soma entre ${n1} e ${n2} é igual a ${soma}`);    
+       
+       /*neste codigo aprendi quando se converte o tipo primitivo
+       usei Number.parseFloat()  e tambem Number.parseInt()
+       onde de comeco na soma estava digamos que juntando os numeros digitados
+       nao os somando ex(1+2= 12 ) sem ser (1+2= 3)*/
+</script>
 </body>
 </html>
