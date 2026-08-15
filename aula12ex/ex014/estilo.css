@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(134, 158, 219, 0.988);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+     background-color: white;
+     border-radius: 10px;
+     padding: 15px;
+     width: 500px;
+     margin: auto;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+#foto img {
+    width: 400px;          /* ou o tamanho que quiser */
+    height: 400px;
+    object-fit: cover;     /* evita distorcer a imagem */
+    border-radius: 50%;    /* deixa completamente redonda (círculo) */
+    display: block;
+    margin: 0 auto 20px auto;        /* centraliza */
+}
